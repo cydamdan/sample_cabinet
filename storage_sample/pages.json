@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "留样订单"
+            }
+            
+        }
+        ,{
+            "path" : "pages/information/information",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "留样信息填写",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#008f7a",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index-active.png"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "留样订单",
+				"iconPath": "static/order.png",
+				"selectedIconPath": "static/order-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

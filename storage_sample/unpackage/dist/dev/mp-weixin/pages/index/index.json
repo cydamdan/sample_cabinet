@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "uv-toast": "/uni_modules/uv-toast/components/uv-toast/uv-toast",
+    "wm-list-add": "/components/wm-list-add/wm-list-add",
+    "cc-beauty-cate": "/uni_modules/cc-beautyCate/components/cc-beautyCate/cc-beautyCate"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "留样订单",
+  "usingComponents": {
+    "cc-list-view": "/uni_modules/cc-listView/components/cc-listView/cc-listView",
+    "cc-list-page-view": "/uni_modules/cc-listPageView/components/cc-listPageView/cc-listPageView"
+  }
+}

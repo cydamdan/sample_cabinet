@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/information/information"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#008f7a",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index-active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "留样订单",
+        "iconPath": "static/order.png",
+        "selectedIconPath": "static/order-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
